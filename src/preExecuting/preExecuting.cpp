@@ -6,7 +6,7 @@ using namespace std;
 
 void setGrafoWeights(vetorAdjacency* vetor){
     for(int i=vetor->getSize(); i>=0; i--){
-        if(vetor->getVetor(i)->getType==2){
+        if(vetor->getVetor(i)->getType()==2){
             setGrafoWeightsAux(vetor->getVetor, vetor);        
         }
     }
