@@ -13,7 +13,7 @@ class itemVetorAdjacency{
         listAdjacency* list;
     public:
 
-        itemVetorAdjacency(int index, int weight, int type, listAdjacency* list);
+        void inicializa(int index, int weight, int type, listAdjacency* list);
 
         void setIndex(int index);
         void setWeight(int weight);

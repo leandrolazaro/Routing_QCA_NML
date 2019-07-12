@@ -1,7 +1,7 @@
 #include "itemVetorAdjacency.hpp"
 #include "listAdjacency.hpp"
 
-itemVetorAdjacency::itemVetorAdjacency(int index, int weight, int type, listAdjacency* list){
+void itemVetorAdjacency::inicializa(int index, int weight, int type, listAdjacency* list){
     itemVetorAdjacency::index=index;
     itemVetorAdjacency::weight=weight;
     itemVetorAdjacency::type=type;
